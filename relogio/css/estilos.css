@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+
+
+}
+
+.relogio p {
+    color: rgba(0, 0, 0, 0.404);
+    font-size: 100px;
+    font-family: Didot;
+
+}
+
+main #horas,
+#minutos,
+#segundos {
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(42, 223, 251, 0.362), rgba(196, 255, 240, 0.327), rgba(255, 255, 255, 0.282), rgba(42, 223, 251, 0.431));
+    box-shadow: 8px 10px 20px rgb(12, 12, 12);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    
+}
+
+body {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: url(mar.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
